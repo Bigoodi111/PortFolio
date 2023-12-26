@@ -21,14 +21,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'gregoire.fontaine@sts-sio-caen.info';
-        $mail->Password   = 'PbdWa22#aMeM';
+        $mail->Username   = 'prenom.nom@sts-sio-caen.info';
+        $mail->Password   = 'MotDePasse';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
         // Destinataires
         $mail->setFrom($email, $nom);
-        $mail->addAddress('gregoire.fontaine@sts-sio-caen.info');
+        $mail->addAddress('prenom.nom@sts-sio-caen.info');
 
         // Contenu
         $mail->isHTML(true);
