@@ -1,6 +1,5 @@
 <?php
 
-require_once("../yaml/yaml.php");
 $data=yaml_parse_file('main.yaml');
 use Symfony\Component\Yaml\Yaml;
 $yamlFilePath = 'main.yaml';
