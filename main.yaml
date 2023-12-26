@@ -1,0 +1,134 @@
+titre: Mon Portfolio Professionel
+header:
+  text_bleu: "GRÉGOIRE "
+  class: titre-bleu
+  text_blanc: "FONTAINE"
+phraseaccroche:
+  phrases:
+    - "Roux-tine quotidienne : coder, tester, réussir."
+    - "Le Roux-bin des Bois de la programmation."
+    - "La Roux-ck star du développement."
+  class: accroche
+
+nav:
+  - id: accueil
+    name: Accueil
+    link: "#"
+    target : ""
+  - id: a_propos
+    name: À propos
+    link: "#a_propos"
+    target : ""
+  - id: competences
+    name: Compétences
+    link: "#competences"
+    target : ""
+  - id: experience
+    name: Expérience
+    link: "#experience"
+    target : "_self"
+  - id: formation
+    name: Formation
+    link: "#formation"
+    target : "_self"
+  - id: contact
+    name: Contact
+    link: "#contact"
+    target : "_self"
+  - id: linkedin
+    name : Mon Linkedin
+    link: "www.linkedin.com/in/grégoire-fontaine-7228642a6"
+    target : "_blank"
+a_propos:
+  image:
+    src: "Images/Photo.png"
+    alt: "Photo de Grégoire FONTAINE"
+  texte: >
+    Bonjour, je suis Grégoire Fontaine, un étudiant dynamique et passionné par le monde de l'informatique, avec une orientation particulière vers les réseaux et la cybersécurité.
+    Actuellement en formation pour renforcer mes compétences dans ces domaines, je suis constamment à la recherche de nouvelles connaissances et de défis à relever.
+    Bien que je sois encore en phase d'apprentissage, ma curiosité et ma détermination me poussent à explorer divers aspects de la technologie, allant du développement web aux principes fondamentaux des réseaux informatiques.
+    Mon parcours jusqu'à présent m'a permis de développer une solide base théorique, et je suis enthousiaste à l'idée de mettre en pratique mes acquis dans des projets concrets et innovants.
+competences:
+  - categorie: Développement
+    Dev:
+      - name: HTML 5
+        value: 4
+      - name: CSS 3
+        value: 3
+      - name: Python
+        value: 4
+      - name : JavaScript
+        value: 2
+  - categorie: Logiciel
+    Dev:
+      - name: Visual Studio Code
+        value: 4
+      - name: PhotoShop
+        value: 3
+      - name: SolidWorks
+        value: 2
+  - categorie: Language
+    Lang:
+      - name: Français
+        value: 5
+      - name: Anglais
+        value: 3
+  - categorie: Certification
+    Certif:
+      - name: PIX
+        score: 658
+      - name: Voltaire
+        score: "En cours"
+experience:
+    experiences:
+      - exp: Cours en cours
+        description: Durant une année scolaire, les élèves s’engagent, en équipe de 4 à 6, dans un projet ambitieux et concret dont l’objectif est la réalisation d’un mini-véhicule électrique.
+        role : > 
+          Au sein de ce projet, mon rôle était celui d'un des deux modélisateurs 3D, avec un focus sur la conception de la coque de notre voiture.
+          <br>Mon défi ? Créer un modèle 3D sur le logiciel SolidWorks, qui respecte les critères du concours, en veillant à ce qu'il s'adapte parfaitement aux autres éléments.
+          <br>Après avoir finalisé le modèle, nous l'avons utilisé pour fabriquer le moule et effectuer le thermoformage.
+          <br>En plus de cela, il fallait concevoir un stand pour mettre en valeur notre véhicule et se préparer pour une présentation orale devant un jury.
+          <br>L'objectif ? Convaincre les juges pour franchir les étapes régionales et se qualifier pour la compétition nationale.
+          <br>Malheureusement, même si notre voiture était la plus rapide et la plus originale, nous avons fini deuxièmes.
+        lieu : "Institut Lemonnier, Caen 14000"
+        date : 2020-2021
+        liens : "https://course-en-cours.com/"
+formation:
+  - catego: "Études Supérieures"
+    date: "2023 -"
+    lieu: "CaenSup Sainte-Ursule, Caen 14000"
+    description: >
+      Je suis actuellement étudiant en BTS Systèmes Informatiques aux Organisations (SIO) au sein du pôle d'enseignement supérieur Sainte-Ursule.<br>
+      J'ai opté pour la spécialité SISR, ce qui me permet de me concentrer sur le domaine des réseaux informatiques, un aspect de l'informatique qui m'intéresse particulièrement.<br>
+      Après l'obtention de mon BTS, j'envisage de poursuivre mes études dans un domaine qui me passionne de plus en plus, celui de la cybersécurité.<br>
+      C'est un domaine de plus en plus porteur en l'informatique, et qui demandent des compétences en informatique et en sécurité.<br>
+  - catego: "Lycée"
+    date: "2020-2023"
+    lieu: "Institut Lemonnier, Caen 14000"
+    description: >
+      Au lycée, j'ai suivi un parcours générale, avec les spécialité Mathématiques et Numérique Sciences Informatiques (NSI).<br>
+      Même si les maths n'ont pas toujours été mon point fort, comme en témoigne ma note de 8 au bac, j'ai réussi à me rattraper en NSI avec un 18.<br>
+      Mes résultats en français étaient assez bons, avec un 17 à l'écrit et un 15 à l'oral.<br>
+      J'ai également obtenu un 18 à mon Grand Oral sur le sujet 'La compression de données est-elle du domaine mathématique ou informatique ?'.
+      Grâce à ces notes, j'ai pu obtenir mon baccalauréat avec la mention 'Assez Bien'.<br>
+  - catego: "Collège"
+    date: "2016-2020"
+    lieu: "Collège Jacques Prévert, Verson 14790"
+    lieu_2: "Collège Institution Saint Pierre, Caen 14000"
+    description: >
+      Au cours de mes trois premières années de collège, j'ai étudié dans l'établissement scolaire de mon secteur, où j'ai maintenu des résultats corrects. <br>
+      Pour ma dernière année au collège, la classe de 3ème, j'ai rejoint un collège privé.<br>
+      Cette transition a été une étape importante pour moi, et j'ai passé mon Diplôme National du Brevet en obtenant la mention 'Assez Bien'.<br>
+
+contact:
+  title: Contact
+  form_action: envoyer.php
+  fields:
+    - name: nom
+      label: Nom
+    - name: email
+      label: Email
+    - name: sujet
+      label: Objet
+    - name: message
+      label: Message
